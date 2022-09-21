@@ -3,6 +3,7 @@ body {
 }
 
 img {
+  position: absolute;
   width: 120px;
 }
 

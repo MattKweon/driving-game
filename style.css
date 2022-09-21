@@ -17,3 +17,15 @@ img {
 .turn-270 {
   transform: rotate(270deg);
 }
+
+.turn-n90 {
+  transform: rotate(-90deg);
+}
+
+.turn-n180 {
+  transform: rotate(-180deg);
+}
+
+.turn-n270 {
+  transform: rotate(-270deg);
+}

@@ -7,7 +7,7 @@ document.addEventListener('keydown', function (event) {
   } else if (event.keyCode === 40) {
     $img.className = 'turn-180';
   } else if (event.keyCode === 37) {
-    $img.className = 'turn-90';
+    $img.className = 'turn-270';
   } else if (event.keyCode === 38) {
     $img.className = '';
   }

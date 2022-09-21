@@ -18,6 +18,7 @@ document.addEventListener('keydown', function (event) {
       setInterval(function () {
         $img.style.left = pos + 'rem';
         pos += 1;
+        moving = true;
       }, 16);
     }
   }

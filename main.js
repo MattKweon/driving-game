@@ -13,9 +13,12 @@ document.addEventListener('keydown', function (event) {
   }
   if (event.key === ' ') {
     var pos = 0;
-    setInterval(function () {
-      $img.style.left = pos + 'rem';
-      pos += 1;
-    }, 16);
+    var moving = false;
+    if (moving === false) {
+      setInterval(function () {
+        $img.style.left = pos + 'rem';
+        pos += 1;
+      }, 16);
+    }
   }
 });

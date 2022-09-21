@@ -11,4 +11,11 @@ document.addEventListener('keydown', function (event) {
   } else if (event.keyCode === 38) {
     $img.className = '';
   }
+  if (event.key === ' ') {
+    var pos = 0;
+    setInterval(function () {
+      $img.style.left = pos + 'rem';
+      pos += 1;
+    }, 16);
+  }
 });

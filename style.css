@@ -3,6 +3,13 @@ body {
 }
 
 img {
-  width: 50px;
-  height: 100px;
+  width: 120px;
+}
+
+.turn-right {
+  transform: rotate(90deg);
+}
+
+.turn-left {
+  transform: rotate(-90deg);
 }
